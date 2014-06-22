@@ -1,0 +1,39 @@
+body{
+	background: #12E6DB;
+}
+.container{
+	margin: auto;
+	margin-top: 10%;
+	width: 50%;
+	height: 75%;
+	border: 1px solid black;
+	background: #fff;
+	font-size: 2.0vw;
+}
+
+h2{
+	text-align: center;
+	font-size: 2.5vw;
+}
+
+div#winner{
+	text-align: center;
+	font-size: 3.0vw;
+	color: #22D42E;
+}
+#players{
+	margin-left: 37%;
+}
+#choose-winner{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+}
+#add{
+	width: 10.0vw;
+	font-size: 1.0vw;
+}
+
+ul{
+	list-style: none;
+}

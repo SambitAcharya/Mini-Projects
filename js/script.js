@@ -6,14 +6,38 @@ function rand(min,max){
 	
 var winner_box = document.querySelector('#winner span'),
 	choose_btn = document.getElementById('choose-winner'),
+	add_btn = document.getElementById('add'),
 	players = document.getElementById('players'),
 	last_winner;
 
 choose_btn.addEventListener('click', function() {
-	get_winner(players.value.split(",").filter(function(name){
-		return name !== "";
+	
+	var li = players.getElementsByTagName("li");
+	var names_array = [];
+	for(var i=0; i<li.length; i++){
+		
+		var liChildren = li.item(i).childNodes;
+		
+		for(var j=0; j<liChildren.length; j++)
+			if(liChildren.item(j).nodeType == liChildren.item(j).TEXT_NODE)
+				names_array.push( liChildren.item(j).nodeValue );
+		
+	}
+
+	get_winner(names_array.filter(function(name){
+	 	return name !== "";
 	}));
+	
 }, false);
+
+add_btn.addEventListener('click', function() {
+		var textInput = document.getElementById("newPlayers");
+		var playerName = textInput.value;
+		var li= document.createElement("li");
+		li.innerHTML=playerName;
+		players.appendChild(li);
+}, false);
+
 
 function get_winner(names){
 	
