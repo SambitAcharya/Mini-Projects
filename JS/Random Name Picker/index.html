@@ -1,0 +1,39 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>JS Raffle</title>
+	<meta charset = "utf-8" />
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		
+		<h2>Javascript Raffling System</h2>
+		
+		<form class="form" role="form">
+	  		<div class="form-group">
+	   	 		<button type="button" class="btn btn-success" id="add">Add New Player</button>
+	   	 		<div class= "col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 col-lg-5 col-lg-offset-3">
+	      			<input type="text" class="form-control" id="newPlayers"placeholder="Player's Name">
+	    		</div>
+	  		</div>
+	  	</form>
+
+		<h2 class="">Ready to Pick a Winner?</h2>
+		<div id="winner">Congratulations <span>John Doe</span></div>
+		
+		<ul id="players">
+		
+		</ul>
+
+		<button type="button" class="btn btn-primary btn-lg btn-block" id="choose-winner">Let's Play</button>
+	</div>
+
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
