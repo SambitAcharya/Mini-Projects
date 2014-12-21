@@ -2,6 +2,13 @@ Mini-Projects
 =============
 A collection of various mini projects
 
+##Python
+
+1) Random Password Generator
+
+An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
+The number of passwords generated and length of each password is to be decided by the user.   
+
 ## PHP
 
 1) QR Code Generator
