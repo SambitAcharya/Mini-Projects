@@ -20,6 +20,10 @@ This application makes use of the QR Code Library by Endroid.
 
 This is a currency conversion application which makes use of the free currency converter API and can handle upto 10 different unit conversions in a single query, owing to the restriction of the API.
 
+3) URL Shortener
+
+URL Shortener application made using PHP. Currently not usable, as a few bugs exists. Will update this space when done.
+
 ## JS
 
 1) Keyboard Simulator
