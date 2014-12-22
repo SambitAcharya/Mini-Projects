@@ -16,6 +16,10 @@ The number of passwords generated and length of each password is to be decided b
 An application which can be used for the generation of images containing a QR Code. 
 This application makes use of the QR Code Library by Endroid. 
 
+2) Currency Converter
+
+This is a currency conversion application which makes use of the free currency converter API and can handle upto 10 different unit conversions in a single query, owing to the restriction of the API.
+
 ## JS
 
 1) Keyboard Simulator
