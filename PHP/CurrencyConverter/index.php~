@@ -1,0 +1,13 @@
+<?php 
+	require 'CurrencyConverterInterface.php'
+	require 'CurrencyConverter.php'
+
+	$converter = new CurrencyConverter;
+
+	$results = $converter->convert([
+		['USD', 'INR', 12.00],
+		['INR', 'USD', 200.00]
+	]);
+
+	var_dump($results);
+?>
