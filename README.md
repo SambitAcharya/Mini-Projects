@@ -7,7 +7,11 @@ A collection of various mini projects
 1) Random Password Generator
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
-The number of passwords generated and length of each password is to be decided by the user.   
+The number of passwords generated and length of each password is to be decided by the user.  
+
+2) Image Recognition With Python
+
+An application with basic image recognition capabilities. Exact work of the application to be updated, once it has been completed.
 
 ## PHP
 
