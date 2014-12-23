@@ -27,8 +27,6 @@ def threshold(imageArray):
                 eachPix[3] = 255
     return newAr
 
-def func2():
-
 i = Image.open('images/numbers/0.1.png')
 iar = np.asarray(i)
 
