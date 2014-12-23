@@ -1,0 +1,5 @@
+
+Currently getting two errors which have halted the program.
+
+1) assignment destination is read-only python
+2) RuntimeWarning: overflow encountered in ubyte_scalars
