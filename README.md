@@ -11,7 +11,7 @@ The number of passwords generated and length of each password is to be decided b
 
 2) Image Recognition With Python
 
-An application with basic image recognition capabilities. Exact work of the application to be updated, once it has been completed.
+An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
 ## PHP
 
@@ -27,6 +27,10 @@ This is a currency conversion application which makes use of the free currency c
 3) URL Shortener
 
 URL Shortener application made using PHP. Currently not usable, as a few bugs exists. Will update this space when done.
+
+4) User Location Determination
+
+
 
 ## JS
 
