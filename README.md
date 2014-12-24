@@ -28,9 +28,9 @@ This is a currency conversion application which makes use of the free currency c
 
 URL Shortener application made using PHP. Currently not usable, as a few bugs exists. Will update this space when done.
 
-4) User Location Determination
+4) User Location Determination (IP Location)
 
-
+This application uses the telize api to determine a wide range of data which are returned by the API. Simply put the desired IP address as a parameter to the request function and access the property which you require.
 
 ## JS
 
