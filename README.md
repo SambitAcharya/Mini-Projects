@@ -13,6 +13,10 @@ The number of passwords generated and length of each password is to be decided b
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
+3) GUI with Tkinter
+
+Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
+
 ## PHP
 
 1) QR Code Generator
