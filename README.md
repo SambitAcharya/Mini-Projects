@@ -6,7 +6,7 @@ A collection of various mini projects
 
 **1) Compare Reddit Karma**
 
-An application to compare the reddit karma of users based on their latest 25 posts.
+An application to compare the reddit karma of users based on their latest 25 posts. The number of users have been limited to two owing to avoid too many requests to the reddit server.
 
 **2) Web Crawler**
 
