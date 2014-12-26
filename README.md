@@ -4,19 +4,23 @@ A collection of various mini projects
 
 ##Python
 
-**1) Web Crawler**
+**1) Compare Reddit Karma**
+
+An application to compare the reddit karma of users based on their latest 25 posts.
+
+**2) Web Crawler**
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**2) Image Recognition With Python**
+**3) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**3) GUI with Tkinter**
+**4) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**4) Random Password Generator**
+**5) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.  
