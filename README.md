@@ -16,14 +16,18 @@ An application to crawl a popular forum and collect the title of the topics afte
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**4) GUI with Tkinter**
+**4) Phrase Frequency Counter**
 
-Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
+An application to count how many times a particular phrase has been repeated in a given input.
 
 **5) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.  
+
+**6) GUI with Tkinter**
+
+Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
 
 ## PHP
