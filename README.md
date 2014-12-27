@@ -18,8 +18,9 @@ An application with basic image recognition capabilities. Currently a threshold 
 
 **4) Phrase Frequency Counter**
 
-An application to count how many times a particular phrase has been repeated in a given input. The user has to input the paragraph and the number of words in each phrase. Currently the script works for one word phrases only.
-It will be updated soon.
+An application to count how many times a particular phrase has been repeated in a given input. The user has to choose how many words a phrase would contain and then the code would display all the possible phrases
+of that many words and their counts. 
+Validation issues of common inputs have been taken care of. 
 
 **5) Random Password Generator**
 
