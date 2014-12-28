@@ -8,26 +8,30 @@ A collection of various mini projects
 
 An application to compare the reddit karma of users based on their latest 25 posts. The number of users have been limited to two to avoid too many requests to the reddit server. This script prints out the number of likes and the number of comments on the posts of the reddit users which the user inputs. It also handles cases of invalid users.
 
-**2) Web Crawler**
+**2) What's The Weather**
 
-An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**3) Image Recognition With Python**
-
-An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
-
-**4) Phrase Frequency Counter**
+**3) Phrase Frequency Counter**
 
 An application to count how many times a particular phrase has been repeated in a given input. The user has to choose how many words a phrase would contain and then the code would display all the possible phrases
 of that many words and their counts. 
 Validation issues of common inputs have been taken care of. 
 
-**5) Random Password Generator**
+
+**4) Image Recognition With Python**
+
+An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
+
+**5) Web Crawler**
+
+An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
+
+**6) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.  
 
-**6) GUI with Tkinter**
+**7) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
