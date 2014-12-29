@@ -5,7 +5,7 @@ A collection of various mini projects
 ##Python
 **1) Search Engine**
 
-A search engine which i am building as a part of Udacity CS101 class. 
+A search engine which i am building as a part of Udacity CS101 class. Currently, the code has been written till Unit 2
 
 **2) Compare Reddit Karma**
 
