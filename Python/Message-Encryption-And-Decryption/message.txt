@@ -1,0 +1,2 @@
+This file stores the encrypted message which the user enters. 
+Contents will be over written once encryption.py is run.
