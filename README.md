@@ -29,12 +29,16 @@ An application with basic image recognition capabilities. Currently a threshold 
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**7) Random Password Generator**
+**7) Message Encryption And Decryption**
+
+An application which generates a key and encrypts a message given by the user. The message can be decrpyted by a person having the decryption file and the key which was used. The key and the message will be stored in their respective key files when the preograms are run.
+
+**8) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.  
 
-**8) GUI with Tkinter**
+**9) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
