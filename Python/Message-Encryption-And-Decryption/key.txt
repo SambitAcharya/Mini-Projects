@@ -1,0 +1,1 @@
+This file is meant to store the encryption key. Contents will be overwritten when you run the encryption program.
