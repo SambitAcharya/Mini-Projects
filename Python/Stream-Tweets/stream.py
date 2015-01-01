@@ -9,9 +9,8 @@ related to a particular topic. The returned data has been split so as to only
 store the tweets in a file along with the unix timestamp.
 
 @author: Sambit
+
 '''
-
-
 
 #Imports
 import tweepy
