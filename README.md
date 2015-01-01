@@ -22,7 +22,7 @@ Validation issues of common inputs have been taken care of.
 
 **5) Streaming Tweets**
 
-An application to stream tweets.
+An application to stream tweets related to a particular topic. Using twitter's API, a script has been made to stream tweets related to a particular topic. The returned data has been split so as to only store the tweets in a file along with the unix timestamp.
 
 **6) Web Crawler**
 
