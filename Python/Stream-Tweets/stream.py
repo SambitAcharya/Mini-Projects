@@ -6,7 +6,7 @@ Problem: An application to stream tweets related to a particular topic
 
 Implementation: Using twitter's API, a script has been made to stream tweets
 related to a particular topic. The returned data has been split so as to only
-store the tweets in a file along with the unix timestamp.
+store the tweets in a file along with the UNIX timestamp.
 
 @author: Sambit
 
