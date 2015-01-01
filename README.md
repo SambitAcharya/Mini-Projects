@@ -20,10 +20,9 @@ An application to count how many times a particular phrase has been repeated in 
 of that many words and their counts. 
 Validation issues of common inputs have been taken care of. 
 
+**5) Streaming Tweets**
 
-**5) Image Recognition With Python**
-
-An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
+An application to stream tweets.
 
 **6) Web Crawler**
 
@@ -41,6 +40,11 @@ The number of passwords generated and length of each password is to be decided b
 **9) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
+
+**10) Image Recognition With Python**
+
+An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
+
 
 
 ## PHP
