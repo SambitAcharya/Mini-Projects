@@ -36,21 +36,22 @@ An application to crawl a popular forum and collect the title of the topics afte
 **8) Decode The SMS**
 
 An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand.
-**8) Message Encryption And Decryption**
+
+**9) Message Encryption And Decryption**
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
 
-**9) Random Password Generator**
+**10) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
 The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
-**10) GUI with Tkinter**
+**11) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**11) Image Recognition With Python**
+**12) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
