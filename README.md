@@ -41,7 +41,7 @@ An application which generates a key and encrypts a message given by the user. T
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
-The xkcd password generator creates stronger and easier to remember passwords.
+The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
 **10) GUI with Tkinter**
 
