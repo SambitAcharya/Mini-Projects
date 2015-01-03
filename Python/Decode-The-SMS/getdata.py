@@ -33,6 +33,9 @@ for link in soup.findAll('tr'):
     toappend+="\n"
 
 # Saving the data to a file for further processing
-abbreviations = open("abbreviations.txt",'w')
+abbreviations = open("abbreviation.txt",'w')
 abbreviations.write(toappend.encode('utf-8').strip())
 abbreviations.close()
+
+# One or two elements had to be fixed manually for the program to work correctly. Use the abbreviations.txt file to get the correct results. 
+#This scraper is going to generate abbreviation.txt which will have most of the data
