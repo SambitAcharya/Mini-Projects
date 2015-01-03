@@ -33,6 +33,9 @@ An application to stream tweets related to a particular topic. Using twitter's A
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
+**8) Decode The SMS**
+
+An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand.
 **8) Message Encryption And Decryption**
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
