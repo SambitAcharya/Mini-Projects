@@ -35,7 +35,7 @@ An application to crawl a popular forum and collect the title of the topics afte
 
 **8) Decode The SMS**
 
-An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand. Currently the scraper file is complete and all the popular SMS language and their meaning have been scraped of a popular website.
+An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand. The scraper file is complete and all the popular SMS language and their meaning have been scraped of a popular website. From this file, a dictionary has been created which is going to be used for decoding.
 
 **9) Message Encryption And Decryption**
 
