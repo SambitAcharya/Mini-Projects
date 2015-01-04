@@ -25,17 +25,17 @@ An application to count how many times a particular phrase has been repeated in 
 of that many words and their counts. 
 Validation issues of common inputs have been taken care of. 
 
-**6) Streaming Tweets**
+**6) Decode The SMS**
+
+An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand. The scraper file is complete and all the popular SMS language and their meaning have been scraped of a popular website. Dictionary created from this file is used to translate the SMS text.
+
+**7) Streaming Tweets**
 
 An application to stream tweets related to a particular topic. Using twitter's API, a script has been made to stream tweets related to a particular topic. The returned data has been split so as to only store the tweets in a file along with the unix timestamp.
 
-**7) Web Crawler**
+**8) Web Crawler**
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
-
-**8) Decode The SMS**
-
-An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand. The scraper file is complete and all the popular SMS language and their meaning have been scraped of a popular website. From this file, a dictionary has been created which is going to be used for decoding.
 
 **9) Message Encryption And Decryption**
 
