@@ -1,3 +1,5 @@
+import random
+
 def createFiles():
 
     for i in range(100):
@@ -12,6 +14,7 @@ def createFiles():
 
         filename = replaceWithNumber(filename)
         filename = replaceWithUppercaseLetter(filename)
+        filename = replaceWithSymbol(filename)
 
         a = open(filename+'.txt','w')
         a.close()
@@ -28,3 +31,15 @@ def replaceWithUppercaseLetter(fname):
         replace_index = random.randrange(len(fname)//2,len(fname))
         fname = fname[0:replace_index] + fname[replace_index].upper() + fname[replace_index+1:]
         return fname
+
+def replaceWithSymbol(fname):
+    symbols = "~!@#$%^&*'?><}+=_-'"
+    for i in range(random.randrange(1,3)):
+        replace_index = random.randrange(len(fname)//2,len(fname))
+        fname = fname[0:replace_index] + symbols[random.randrange(len(symbols))] + fname[replace_index+1:]
+    return fname
+
+def main():
+    createFiles()
+
+main()
