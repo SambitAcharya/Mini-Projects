@@ -1,4 +1,3 @@
- 
 import os
 import random
 
@@ -35,6 +34,35 @@ def getCharacterSet():
     chars = raw_input("Enter the set of characters. \n")
     char_list = chars.split()
     return char_list
+
+def getSubsitutionWord():
+
+    to_remove = raw_input("Enter the word to substitute. \n")
+    to_add    = raw_input("Enter the word to be substituted with. \n")
+
+    return to_add,to_remove
+
+def textSubstitution(file_list,to_add,to_remove):
+
+    for file_name in file_list:
+
+        status = []
+        index = file_name.find(to_remove)
+
+        if index == -1:
+            status.append(False)
+            continue
+
+        end = index+len(to_remove)
+        substitute = file_name[:index] + to_add + file_name[end:]
+        os.rename(file_name,substitute)
+
+    if !all(status):
+        print "The given word was not found in any of the file names."
+
+def textPrependAppend():
+
+
 
 def main():
 
