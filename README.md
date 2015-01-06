@@ -14,7 +14,7 @@ An application to compare the reddit karma of users based on their latest 25 pos
 
 **3) Bulk Rename Utility**
 
-An application to rename multiple files in a directory with a ton of more features. A script to create 100 random text files is used to generate the sample data to work on. The renaming utility currently has features of removing all numbers, all symbols and specific set of characters given by the user. More to come soon. 
+An application to rename multiple files in a directory with a ton of more features. A script to create 100 random text files is used to generate the sample data to work on. The renaming utility currently has features of removing all numbers, all symbols and specific set of characters given by the user. It can also find a particular word in the file and replace it.More to come soon. 
 
 **4) Find me a restaurant**
 
