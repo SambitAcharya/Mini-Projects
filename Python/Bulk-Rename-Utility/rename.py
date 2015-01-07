@@ -57,12 +57,8 @@ def textSubstitution(file_list,to_add,to_remove):
         substitute = file_name[:index] + to_add + file_name[end:]
         os.rename(file_name,substitute)
 
-    if !all(status):
+    if not all(status):
         print "The given word was not found in any of the file names."
-
-def textPrependAppend():
-
-
 
 def main():
 
