@@ -82,6 +82,8 @@ URL Shortener application made using PHP. Currently not usable, as a few bugs ex
 
 This application uses the telize api to determine a wide range of data which are returned by the API. Simply put the desired IP address as a parameter to the request function and access the property which you require.
 
+**5) Facebook Sign In**
+
 ## JS
 
 **1) Keyboard Simulator**
