@@ -1,0 +1,46 @@
+body{
+	background:#16a085;
+	font-family:sans-serif;
+	margin: 0px;
+}
+
+.chat_box{
+	position:fixed;
+	bottom: 0px;
+	right: 20px;
+	background: white;
+	width: 250px;
+	height:400px;
+	border-radius:5px 5px 0px 0px;
+}
+
+.chat_head{
+	background: #d35400;
+	padding:15px;
+	color: white;
+	border-radius:5px 5px 0px 0px;
+}
+
+.chat_body{
+	height: 400px;
+}
+
+.user{
+	padding:20px 25px;
+}
+
+.user:hover{
+	background: #f8f8f8;
+}
+
+.user:before{
+
+	content:"";
+	position: absolute;
+	background: #2ece71;
+	width: 10px;
+	height: 10px;
+	left: 5px;
+	top: 24px;
+	border-radius: 5px;
+}
