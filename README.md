@@ -93,3 +93,5 @@ An application which simulates the keyboard of a computer for online use.
 **2) Random Name Picker**
 
 A random name picker which shuffles a list of names provided to it and finally picks one.
+
+**3) Chat Application**
