@@ -96,4 +96,4 @@ A random name picker which shuffles a list of names provided to it and finally p
 
 **3) Chat Application**
 
-An application which enables two users to chat with each other. Currently working on the design of the same.
+An application which enables two users to chat with each other. Design for the chat window of the sender and the receiver have been completed. Still more work on the design to be done.
