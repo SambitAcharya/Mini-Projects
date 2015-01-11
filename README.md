@@ -95,3 +95,5 @@ An application which simulates the keyboard of a computer for online use.
 A random name picker which shuffles a list of names provided to it and finally picks one.
 
 **3) Chat Application**
+
+An application which enables two users to chat with each other. Currently working on the design of the same.
