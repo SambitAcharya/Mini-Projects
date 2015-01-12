@@ -97,3 +97,7 @@ A random name picker which shuffles a list of names provided to it and finally p
 **3) Chat Application**
 
 An application which enables two users to chat with each other. It has a chat window for the receiver and another window showing which all of your friends are online. This is just the design. More work to be done on the chatting algorithm.
+
+**4) Image Upload **
+
+An application to upload images using jQuery
