@@ -15,11 +15,20 @@
 		<h1>Image Uploader</h1>
 		<p>Image Uploading using jquery and ajax.</p>
 		
-		<form action="upload.php" method="post" enctype="multipart/form-data">
-	    	<label for="file">Select image to upload:</label>
-	    	<input type="file" name="file" id="file"><br>
-	    	<input type="submit" value="Upload Image" name="submit" class="btn btn-success">
+		<form action="upload.php" method="post" id="myForm"
+		enctype="multipart/form-data">
+		<label for="file">Filename:</label>
+		<input type="file" name="file" id="file"><br>
+		<input type="submit" name="submit" class="btn btn-success" value="Upload Image">
 		</form>
-	</div>
+
+		<div class="progress progress-striped active">
+		  <div class="progress-bar"  role="progressbar" aria-valuenow="0" aria-valuemin="0" 
+		  aria-valuemax="100" style="width: 0%">
+		    <span class="sr-only">0% Complete</span>
+		  </div>
+		</div>
+		<div class="image"></div>
+		</div>
 </body>
 </html>
