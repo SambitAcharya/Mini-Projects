@@ -20,4 +20,8 @@ code = raw_input("Enter the authorization code here: ").strip()
 access_token, user_id = flow.finish(code)
 
 client = dropbox.client.DropboxClient(access_token)
-print 'linked account: ', client.account_info()
+# print 'linked account: ', client.account_info()
+
+f = open('sample_file_to_upload.txt', 'rb')
+response = client.put_file('/sample-file.txt', f)
+print "uploaded:", response
