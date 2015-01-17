@@ -50,7 +50,7 @@ The xkcd password generator creates stronger and easier to remember passwords by
 
 **11) Dropbox Uploader**
 
-An application to upload files to dropbox.
+A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
 **12) Web Login**
 
