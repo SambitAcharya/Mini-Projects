@@ -84,6 +84,8 @@ This application uses the telize api to determine a wide range of data which are
 
 **5) Facebook Sign In**
 
+An application to sign in using facebook
+
 ## JS
 
 **1) Keyboard Simulator**
