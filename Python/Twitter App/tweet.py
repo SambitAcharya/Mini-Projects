@@ -1,4 +1,5 @@
 import twitter
+from pprint import pprint
 
 CONSUMER_KEY = 'Udxy6q9vuMHyESFe5a2Y3tsBv'
 CONSUMER_SECRET = 'CDlMreFFIRhjyGRtePZrOPQw3xSOslJPktmDB6P7zHHmnno4Dv'
@@ -10,4 +11,16 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
 
 twitter_api = twitter.Twitter(auth=auth)
 
-print twitter_api
+# print twitter_api
+
+WORLD_WOE_ID = 1
+US_WOE_ID = 23424977
+
+world_trends = twitter_api.trends.place(_id=WORLD_WOE_ID)
+us_trends = twitter_api.trends.place(_id=US_WOE_ID)
+
+print world_trends
+
+print "------------------------------------------------------------------------"
+
+print us_trends
