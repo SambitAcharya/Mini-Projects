@@ -1,4 +1,5 @@
 import twitter
+import json
 from pprint import pprint
 
 CONSUMER_KEY = 'Udxy6q9vuMHyESFe5a2Y3tsBv'
@@ -14,13 +15,15 @@ twitter_api = twitter.Twitter(auth=auth)
 # print twitter_api
 
 WORLD_WOE_ID = 1
-US_WOE_ID = 23424977
+IND_WOE_ID = 2295420
 
 world_trends = twitter_api.trends.place(_id=WORLD_WOE_ID)
-us_trends = twitter_api.trends.place(_id=US_WOE_ID)
+ind_trends = twitter_api.trends.place(_id=IND_WOE_ID)
 
-print world_trends
 
-print "------------------------------------------------------------------------"
-
-print us_trends
+# print json.dumps(world_trends, indent=1)
+# print "------------------------------------------------------------------------"
+# print json.dumps(ind_trends, indent=1)
+# print ind_trends[0]['trends']
+for trend in ind_trends[0]['trends']:
+    print trend['name']
