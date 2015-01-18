@@ -2,11 +2,11 @@
 
 Created For Mini Projects Repository
 
-Problem: An application to stream tweets related to a particular topic
+Problem: An application to lookup the top trending topics in Twitter
 
-Implementation: Using twitter's API, a script has been made to stream tweets
-related to a particular topic. The returned data has been split so as to only
-store the tweets in a file along with the UNIX timestamp.
+Implementation: An application to find the top ten trending topics. The list of
+places which the code supports is given at the start of the application and then
+the top topics are shown according to the input.
 
 @author: Sambit
 
