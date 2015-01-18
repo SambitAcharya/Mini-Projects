@@ -1,6 +1,5 @@
 import twitter
 import json
-from pprint import pprint
 
 CONSUMER_KEY = 'Udxy6q9vuMHyESFe5a2Y3tsBv'
 CONSUMER_SECRET = 'CDlMreFFIRhjyGRtePZrOPQw3xSOslJPktmDB6P7zHHmnno4Dv'
@@ -12,18 +11,26 @@ auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
 
 twitter_api = twitter.Twitter(auth=auth)
 
-# print twitter_api
+country_id = {'World': 1,'UK': 23424975, 'India': 2295420, 'USA': 23424977, 'Japan': 1118129, 'Nigeria': 23424908, 'South Africa': 23424942, 'Canada': 23424775,'Argentina' :23424747}
 
-WORLD_WOE_ID = 1
-IND_WOE_ID = 2295420
+print "Choose amongst the following. \n"
+for country in country_id.keys():
+    print country
+print
+country = raw_input("Enter the name of the place.\n")
 
-world_trends = twitter_api.trends.place(_id=WORLD_WOE_ID)
-ind_trends = twitter_api.trends.place(_id=IND_WOE_ID)
+if country_id.has_key(country):
 
+    print 'The top 10 trending topics in ' +country+' are:'
+    print '------------------------------\n'
 
-# print json.dumps(world_trends, indent=1)
-# print "------------------------------------------------------------------------"
-# print json.dumps(ind_trends, indent=1)
-# print ind_trends[0]['trends']
-for trend in ind_trends[0]['trends']:
-    print trend['name']
+    PLACE_WOE_ID = country_id[country]
+
+    place_trends = twitter_api.trends.place(_id=PLACE_WOE_ID)
+    count = 1
+    for trend in place_trends[0]['trends']:
+        print str(count) + ') ' + trend['name']
+        count+=1
+    print '\nThank You for using the service.'
+else:
+    print 'Information for that country is not available.'
