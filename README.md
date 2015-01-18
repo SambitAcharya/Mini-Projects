@@ -52,19 +52,23 @@ The xkcd password generator creates stronger and easier to remember passwords by
 
 A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
-**12) Web Login**
+**11) Twitter App**
+
+An application made using the Twitter API.
+
+**13) Web Login**
 
 An application to login to any website through the command line.
 
-**13) GUI with Tkinter**
+**14) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**14) Image Recognition With Python**
+**15) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**15) What's The Weather**
+**16) What's The Weather**
 
 
 ## PHP
