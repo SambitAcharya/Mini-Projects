@@ -30,11 +30,15 @@ Validation issues of common inputs have been taken care of.
 
 An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand. The scraper file is complete and all the popular SMS language and their meaning have been scraped of a popular website. Dictionary created from this file is used to translate the SMS text.
 
-**7) Streaming Tweets**
+**7) Tweet Without Limits**
+
+An application to post tweets longer than 140 characters.
+
+**8) Streaming Tweets**
 
 An application to stream tweets related to a particular topic. Using twitter's API, a script has been made to stream tweets related to a particular topic. The returned data has been split so as to only store the tweets in a file along with the unix timestamp.
 
-**8) Trend Search**
+**9) Trend Search**
 
 An application to find the top ten trending topics in twitter in various places. The list of places which the code supports is given at the start of the application and then the top topics are shown according to the input. 
 
