@@ -36,7 +36,7 @@ An application to stream tweets related to a particular topic. Using twitter's A
 
 **8) Trend Search**
 
-An application to find the top ten trending topics in twitter in various places. The list of places which the code supports is given at the start of the application and then the top topics are shown according to the input.
+An application to find the top ten trending topics in twitter in various places. The list of places which the code supports is given at the start of the application and then the top topics are shown according to the input. 
 
 **9) Web Crawler**
 
