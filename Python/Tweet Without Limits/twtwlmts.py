@@ -1,30 +1,43 @@
 import textwrap
+import sys
 
 def generateText(text):
 
     num = 1
     den = len(text)/140 + 1
+
     add = str(num)+'/'+str(den)+': '
-    start = 0
     const = 140 - len(add)
-    end = start + const
     count = 0
 
+    start = 0
+    end = start + const
+    tweets = []
+
+    # print '\n----------------------------------           Tweets       -----------------------------------'
+
     while count < den:
+
         add = str(num)+'/'+str(den)+': '
         tweet = add + text[start:end]
-        print tweet + "\n"
-        print len(tweet)
+
+        tweets.append(tweet)
+
         start=end+1
         end = start + const
+
         count+=1
         num+=1
+
+    for tweet in tweets:
+        print tweet
 
 def generateImage():
     return 0
 
 def getText():
-    return raw_input("Enter Your Tweet.\n")
+    print ("Enter Your Tweet.\n")
+    return sys.stdin.read()
 
 def main():
 
