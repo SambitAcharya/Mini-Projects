@@ -50,6 +50,25 @@ def generateImage(text, fullpath, color = "#000", bgcolor = "#FFF", fontfullpath
     font = ImageFont.load_default() if fontfullpath == None else ImageFont.truetype(fontfullpath, fontsize)
     text = text.replace('\n', NEWLINE_REPLACEMENT_STRING)
 
+    lines = []
+    line = u""
+
+    for word in text.split():
+        # print word
+        if word == REPLACEMENT_CHARACTER: #give a blank line
+            lines.append( line[1:] ) #slice the white space in the begining of the line
+            line = u""
+            lines.append( u"" ) #the blank line
+        elif font.getsize( line + ' ' + word )[0] <= (width - rightpadding - leftpadding):
+            line += ' ' + word
+        else: #start a new line
+            lines.append( line[1:] ) #slice the white space in the begining of the line
+            line = u""
+
+            #TODO: handle too long words at this point
+            line += ' ' + word #for now, assume no word alone can exceed the line width
+
+
 
 def getText():
     print ("Enter Your Tweet.\n")
