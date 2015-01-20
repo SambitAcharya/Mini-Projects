@@ -1,5 +1,9 @@
 import textwrap
 import sys
+import PIL
+from PIL import ImageFont
+from PIL import Image
+from PIL import ImageDraw
 
 def generateText(text):
 
