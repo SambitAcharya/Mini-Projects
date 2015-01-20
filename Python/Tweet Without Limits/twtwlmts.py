@@ -36,8 +36,20 @@ def generateText(text):
     for tweet in tweets:
         print tweet
 
-def generateImage(text, fullpath, color = "#000", bgcolor = "#FFF"):
-    return 0
+def generateImage(text, fullpath, color = "#000", bgcolor = "#FFF", fontfullpath = None, fontsize = 52, leftpadding = 3, rightpadding = 3, width = 900):
+    REPLACEMENT_CHARACTER = u'\uFFFD'
+    NEWLINE_REPLACEMENT_STRING = ' ' + REPLACEMENT_CHARACTER + ' '
+
+    # prepare linkback
+    linkback = ""
+    fontlinkback = ImageFont.truetype('font.ttf', 8)
+    linkbackx = fontlinkback.getsize(linkback)[0]
+    linkback_height = fontlinkback.getsize(linkback)[1]
+    #end of linkback
+
+    font = ImageFont.load_default() if fontfullpath == None else ImageFont.truetype(fontfullpath, fontsize)
+    text = text.replace('\n', NEWLINE_REPLACEMENT_STRING)
+
 
 def getText():
     print ("Enter Your Tweet.\n")
