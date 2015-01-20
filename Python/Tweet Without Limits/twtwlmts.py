@@ -68,7 +68,24 @@ def generateImage(text, fullpath, color = "#000", bgcolor = "#FFF", fontfullpath
             #TODO: handle too long words at this point
             line += ' ' + word #for now, assume no word alone can exceed the line width
 
+    if len(line) != 0:
+        lines.append( line[1:] ) #add the last line
 
+    line_height = font.getsize(text)[1]
+    img_height = line_height * (len(lines) + 1)
+
+    img = Image.new("RGBA", (width, img_height), bgcolor)
+    draw = ImageDraw.Draw(img)
+
+    y = 0
+    for line in lines:
+        draw.text( (leftpadding, y), line, color, font=font)
+        y += line_height
+
+    # add linkback at the bottom
+    draw.text( (width - linkbackx, img_height - linkback_height), linkback, color, font=fontlinkback)
+
+    img.save(fullpath)
 
 def getText():
     print ("Enter Your Tweet.\n")
