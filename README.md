@@ -32,7 +32,7 @@ An application to decode an SMS message into a message which a normal person wit
 
 **7) Tweet Without Limits**
 
-An application to post tweets longer than 140 characters. The long text is split into multiple tweets and marked acordingly and posted simultaneously.
+An application to post tweets longer than 140 characters. The long text is split into multiple tweets and marked acordingly and posted simultaneously. The tweet can also be made in the form of a picture and posted directly.
 
 **8) Streaming Tweets**
 
