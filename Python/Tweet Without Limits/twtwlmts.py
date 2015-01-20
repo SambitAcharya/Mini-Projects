@@ -36,7 +36,7 @@ def generateText(text):
     for tweet in tweets:
         print tweet
 
-def generateImage():
+def generateImage(text, fullpath, color = "#000", bgcolor = "#FFF"):
     return 0
 
 def getText():
