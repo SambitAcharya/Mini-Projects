@@ -42,39 +42,41 @@ An application to stream tweets related to a particular topic. Using twitter's A
 
 An application to find the top ten trending topics in twitter in various places. The list of places which the code supports is given at the start of the application and then the top topics are shown according to the input. 
 
-**9) Web Crawler**
+**10) Web Crawler**
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-** 10) PyGithub **
+**11) PyGithub App**
 
-**10) Message Encryption And Decryption**
+App using PyGithub
+
+**12) Message Encryption And Decryption**
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
 
-**11) Random Password Generator**
+**13) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
 The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
-**12) Dropbox Uploader**
+**14) Dropbox Uploader**
 
 A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
-**13) Web Login**
+**15) Web Login**
 
 An application to login to any website through the command line.
 
-**14) GUI with Tkinter**
+**16) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**15) Image Recognition With Python**
+**17) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**16) What's The Weather**
+**18) What's The Weather**
 
 
 ## PHP
