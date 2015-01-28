@@ -46,7 +46,7 @@ An application to find the top ten trending topics in twitter in various places.
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**11) PyGithub **
+**11) PyGithub App**
 
 App using PyGithub
 
