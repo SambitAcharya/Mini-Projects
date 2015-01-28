@@ -12,7 +12,7 @@ A search engine which i am building as a part of Udacity CS101 class. The web cr
 
 An application to compare the reddit karma of users based on their latest 25 posts. The number of users have been limited to two to avoid too many requests to the reddit server. This script prints out the number of likes and the number of comments on the posts of the reddit users which the user inputs. It also handles cases of invalid users.
 
-**3) Bulk Rename Utility**
+**3) Bulk Rename Utility** 
 
 An application to rename multiple files in a directory with a ton of more features. A script to create 100 random text files is used to generate the sample data to work on. The renaming utility currently has features of removing all numbers, all symbols and specific set of characters given by the user. It can also find a particular word in the file and replace it. 
 
@@ -32,7 +32,7 @@ An application to decode an SMS message into a message which a normal person wit
 
 **7) Tweet Without Limits**
 
-An application to post tweets longer than 140 characters. The long text is split into multiple tweets and marked acordingly and posted simultaneously.
+An application to post tweets longer than 140 characters. The long text is split into multiple tweets and marked acordingly and posted simultaneously. The tweet can also be made in the form of a picture and posted directly.
 
 **8) Streaming Tweets**
 
@@ -45,6 +45,8 @@ An application to find the top ten trending topics in twitter in various places.
 **9) Web Crawler**
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
+
+** 10) PyGithub **
 
 **10) Message Encryption And Decryption**
 
