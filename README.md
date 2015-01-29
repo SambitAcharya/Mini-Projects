@@ -48,7 +48,7 @@ An application to crawl a popular forum and collect the title of the topics afte
 
 **11) PyGithub App**
 
-App using PyGithub
+Application making use of data returned from Github API using PyGithub
 
 **12) Message Encryption And Decryption**
 
