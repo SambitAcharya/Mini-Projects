@@ -1,20 +1,13 @@
-import requests
-from getpass import getpass
-import json
+from github import Github
 
-username = 'testZaccount'
-password = 'mytestaccount1234567890'
+ACCESS_TOKEN = '5f569116bfbf651b435145d288bc35cb9cdf8b21'
 
-url  = 'https://api.github.com/authorizations'
-note = 'My note'
-post_data = { 'scopes':['repo'],'note': note }
+USER = 'ptwobrussell'
+REPO = 'Mining-the-Social-Web'
 
-response = requests.post(
-    url,
-    auth = (username, password),
-    data = json.dumps(post_data),
-    )
+client = Github(ACCESS_TOKEN, per_page=100)
+user = client.get_user(USER)
+repo = user.get_repo(REPO)
 
-print "API response:", response.text
-print
-print "Your OAuth token is", response.json()['token']
+stargazers = [ s for s in repo.get_stargazers() ]
+print "Number of stargazers", len(stargazers)
