@@ -49,7 +49,7 @@ An application to crawl a popular forum and collect the title of the topics afte
 **11) PyGithub App**
 
 Application making use of data returned from Github API using PyGithub. Using networkx python module.
-
+ 
 **12) Message Encryption And Decryption**
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
