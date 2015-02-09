@@ -1,23 +1,15 @@
-import networkx as nx
+from github import Github
 
-g = nx.DiGraph()
+ACCESS_TOKEN = '03a974af67767d95175c06d728e9904a4d2c4203'
 
-# print nx.info(g)
-# print
+USER = 'SambitAcharya'
+REPO = 'Mini-Projects'
 
-print "Nodes:", g.nodes()
-print "Edges:", g.edges()
-print
+client = Github(ACCESS_TOKEN, per_page=100)
 
-print "X props:", g.node['X']
-print "Y props:", g.node['Y']
+user = client.get_user(USER)
+repo = user.get_repo(REPO)
 
-print "X=>Y props:", g['X']['Y']
-print
-
-g.node['X'].update({'prop1' : 'value1'})
-print "X props:", g.node['X']
-print
-
-g['X']['Y'].update({'label' : 'label1'})
-print "X=>Y props:", g['X']['Y']
+# print repo
+commits = [ s for s in repo.get_commits() ]
+print "Number of commits", len(commits)
