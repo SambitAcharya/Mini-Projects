@@ -1,6 +1,6 @@
 from github import Github
 
-ACCESS_TOKEN = '03a974af67767d95175c06d728e9904a4d2c4203'
+ACCESS_TOKEN = 'a8746727dba9944c93842574aa7812a4be791eba'
 
 USER = 'SambitAcharya'
 REPO = 'Mini-Projects'
@@ -11,5 +11,5 @@ user = client.get_user(USER)
 repo = user.get_repo(REPO)
 
 # print repo
-commits = [ s for s in repo.get_commits() ]
+commits = [ s for s in repo.get_issues() ]
 print "Number of commits", len(commits)
