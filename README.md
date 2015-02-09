@@ -48,7 +48,7 @@ An application to crawl a popular forum and collect the title of the topics afte
 
 **11) PyGithub App**
 
-Application making use of data returned from Github API using PyGithub. Using networkx python module. 
+Application making use of data returned from Github API using PyGithub. Given the username, the app can generate a lot of data about the user. 
  
 **12) Message Encryption And Decryption**
 
