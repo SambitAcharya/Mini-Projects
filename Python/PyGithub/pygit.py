@@ -1,7 +1,6 @@
 from github import Github
 
-# ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
-
+ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
 
 
 USER = 'SambitAcharya'
@@ -16,10 +15,34 @@ user = client.get_user(USER)
 
 ## Code to get repos of a user
 
+# repos = user.get_repos()
+
+# for repo in repos:
+    #  print repo.name
+
+## End
+
+## Code to get repos, commits and stargazers
+
 repos = user.get_repos()
 
+print "Repo","Commits","Stars"
+print "-------------------"
 for repo in repos:
-     print repo.name
+
+    name = repo.name
+
+    print name,
+
+    commits = [ s for s in repo.get_commits() ]
+    commits_length = len(commits)
+
+    print commits_length,
+
+    stargazers = [ s for s in repo.get_stargazers() ]
+    stargazers_length = len(stargazers)
+
+    print stargazers_length
 
 ## End
 
