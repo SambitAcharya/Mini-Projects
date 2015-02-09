@@ -2,8 +2,6 @@ from github import Github
 
 ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
 
-
-
 USER = 'karan'
 REPO = 'Hook'
 ORG  = 'scipy'
