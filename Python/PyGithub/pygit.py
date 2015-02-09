@@ -3,6 +3,7 @@ from github import Github
 # ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
 
 
+
 USER = 'SambitAcharya'
 REPO = 'Mini-Projects'
 ORG  = 'scipy'
@@ -10,15 +11,26 @@ ORG  = 'scipy'
 client = Github(ACCESS_TOKEN, per_page=100)
 
 user = client.get_user(USER)
-repo = user.get_repo(REPO)
+# repo = user.get_repo(REPO)
+
+
+## Code to get repos of a user
+
+repos = user.get_repos()
+
+for repo in repos:
+     print repo.name
+
+## End
+
 organization = client.get_organization(ORG)
 
 ## Code to get repositories of the organization
 
-repos = organization.get_repos()
-
-for repo in repos:
-     print repo.name
+# repos = organization.get_repos()
+#
+# for repo in repos:
+#      print repo.name
 
 ## End
 
