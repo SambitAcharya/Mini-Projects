@@ -1,6 +1,6 @@
 from github import Github
 
-ACCESS_TOKEN = 'd12469381fc0271973f0e0bf3e9599525c9e9b71'
+ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
 
 USER = 'SambitAcharya'
 REPO = 'Mini-Projects'
