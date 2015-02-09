@@ -1,6 +1,6 @@
 from github import Github
 
-ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
+# ACCESS_TOKEN = 'YOUR_TOKEN_HERE'
 
 
 USER = 'SambitAcharya'
@@ -13,9 +13,12 @@ user = client.get_user(USER)
 repo = user.get_repo(REPO)
 
 organization = client.get_organization(ORG)
-repo_org = organization.get_repos()
+repo_members = organization.get_members()
 
-print repo_org
+# print repo_members
+
+for member in repo_members:
+    print member.name
 # commits = [ s for s in repo.get_commits() ]
 # issues =  [ s for s in repo.get_issues() ]
 
