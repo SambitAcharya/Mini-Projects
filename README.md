@@ -52,6 +52,7 @@ Application making use of data returned from Github API using PyGithub. Given th
  
 **12) LinkedIn Mining**
 
+Application made using the python wrapper for linkedin. This app generates all the user's connections and the positions over the years.
 
 **13) Message Encryption And Decryption**
 
