@@ -23,9 +23,13 @@ connections = app.get_connections()
 # f.write(json.dumps(connections, indent=1))
 # f.close()
 
-pt = PrettyTable(field_names=['Name', 'Location'])
-pt.align = 'l'
+# pt = PrettyTable(field_names=['Name', 'Location'])
+# pt.align = 'l'
+#
+# [ pt.add_row((c['firstName'] + ' ' + c['lastName'], c['location']['name'])) for c in connections['values'] if c.has_key('location') ]
+#
+# print pt
 
-[ pt.add_row((c['firstName'] + ' ' + c['lastName'], c['location']['name'])) for c in connections['values'] if c.has_key('location') ]
 
-print pt
+my_positions = app.get_profile(selectors=['positions'])
+print json.dumps(my_positions, indent=1)
