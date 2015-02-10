@@ -1,4 +1,5 @@
 from linkedin import linkedin
+import json
 
 CONSUMER_KEY = 'YOUR-KEY-HERE'
 CONSUMER_SECRET = 'YOUR-SECRET-HERE'
@@ -12,3 +13,10 @@ auth = linkedin.LinkedInDeveloperAuthentication(CONSUMER_KEY, CONSUMER_SECRET,US
 app = linkedin.LinkedInApplication(auth)
 
 app.get_profile()
+
+connections = app.get_connections()
+connections_data = 'linkedin_connections.json'
+
+f = open(connections_data, 'w')
+f.write(json.dumps(connections, indent=1))
+f.close()
