@@ -1,1 +1,0 @@
-ACCESS_TOKEN = '181bc84335600f23e43d7d3fb735bf83abecdded'
