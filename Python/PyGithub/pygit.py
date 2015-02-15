@@ -10,11 +10,11 @@ client = Github(ACCESS_TOKEN, per_page=100)
 
 user = client.get_user(USER)
 repo = user.get_repo(REPO)
- 
+
 ## Code to get repo tags
 
 # tags = repo.get_tags()
-
+#
 # print 'myseo-pyrocms by keevitaja'
 # for tag in tags:
 #      print tag.name
@@ -23,16 +23,16 @@ repo = user.get_repo(REPO)
 
 ## Code to get repo watchers
 
-# watchers = repo.get_watchers()
-#
-# print 'Hook by karan'
-# count = 0
-#
-# for watcher in watchers:
-#      print watcher.name
-#      count+=1
-#
-# print count
+watchers = repo.get_watchers()
+
+print 'Hook by karan'
+count = 0
+
+for watcher in watchers:
+     print watcher.name
+     count+=1
+
+print count
 
 # Gives the list of stargazers.
 
