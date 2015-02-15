@@ -46,9 +46,9 @@ An application to find the top ten trending topics in twitter in various places.
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**11) PyGithub App**
+**11) Github Mining**
 
-Application making use of data returned from Github API using PyGithub. Given the username, the app can generate data about repositories, its commits, no of stars, issues etc. Same can be done for organizations too. 
+Application making use of data returned from Github API using PyGithub. Given the username, the app can generate data about repositories, its commits, no of stars, issues etc. Same can be done for organizations too. The collected data is then stored into a CSV file. 
  
 **12) LinkedIn Mining**
 
