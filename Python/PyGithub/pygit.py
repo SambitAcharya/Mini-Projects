@@ -74,6 +74,7 @@ user = client.get_user(USER)
 #     print saveLine
 #     saveFile = open('newFile.csv','a')
 #     saveFile.write(saveLine)
+#     saveFile.close()
 #
 ## End
 
