@@ -6,7 +6,7 @@ A collection of various mini projects
 
 **1) Search Engine**
 
-A search engine which i am building as a part of Udacity CS101 class. The web crawler has been completed and all the code till unit 4 is present in the file. 
+A search engine which i am building as a part of Udacity CS101 class. The web crawler has been completed and all the code till unit 4 is present in the file.
 
 **2) Compare Reddit Karma**
 
