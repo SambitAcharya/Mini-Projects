@@ -44,7 +44,7 @@ An application to find the top ten trending topics in twitter in various places.
 
 **10) Collect The Articles**
 
-An application to collect the recent articles from one's favourite websites.
+An application to collect the recent articles from one's favourite websites and display them.
 
 **11) Web Crawler**
 
