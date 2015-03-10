@@ -6,7 +6,7 @@ A collection of various mini projects
 
 **1) Search Engine**
 
-A search engine which i am building as a part of Udacity CS101 class. The web crawler has been completed and all the code till unit 4 is present in the file.    
+A search engine which i am building as a part of Udacity CS101 class. The web crawler has been completed and all the code till unit 4 is present in the file. 
 
 **2) Compare Reddit Karma**
 
@@ -42,45 +42,49 @@ An application to stream tweets related to a particular topic. Using twitter's A
 
 An application to find the top ten trending topics in twitter in various places. The list of places which the code supports is given at the start of the application and then the top topics are shown according to the input. 
 
-**10) Web Crawler**
+**10) Collect The Articles**
+
+An application to collect the recent articles from one's favourite websites and display them.
+
+**11) Web Crawler**
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**11) Github Mining**
+**12) Github Mining**
 
 Application making use of data returned from Github API using PyGithub. Given the username, the app can generate data about repositories, its commits, no of stars, issues etc. Same can be done for organizations too. The collected data is then stored into a CSV file. 
  
-**12) LinkedIn Mining**
+**13) LinkedIn Mining**
 
 Application made using the python wrapper for linkedin. This app generates all the user's connections and the positions over the years. Planning to combine with other projects.
 
-**13) Message Encryption And Decryption**
+**14) Message Encryption And Decryption**
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
 
-**14) Random Password Generator**
+**15) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
 The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
-**15) Dropbox Uploader**
+**16) Dropbox Uploader**
 
 A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
-**16) Web Login**
+**17) Web Login**
 
 An application to login to any website through the command line.
 
-**17) GUI with Tkinter**
+**18) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**18) Image Recognition With Python**
+**19) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**19) What's The Weather**
+**20) What's The Weather**
 
 
 ## PHP
