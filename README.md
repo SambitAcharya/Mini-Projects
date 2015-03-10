@@ -62,29 +62,31 @@ Application made using the python wrapper for linkedin. This app generates all t
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
 
-**15) Random Password Generator**
+**15) Matplotlib**
+
+**16) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
 The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
-**16) Dropbox Uploader**
+**17) Dropbox Uploader**
 
 A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
-**17) Web Login**
+**18) Web Login**
 
 An application to login to any website through the command line.
 
-**18) GUI with Tkinter**
+**19) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**19) Image Recognition With Python**
+**20) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**20) What's The Weather**
+**21) What's The Weather**
 
 
 ## PHP
