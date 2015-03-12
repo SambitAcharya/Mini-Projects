@@ -1,12 +1,17 @@
 from matplotlib import pyplot as plt
-import numpy as np
-import pylab
+from matplotlib import style
 
-plt.plot([5,6,7,8],[7,3,8,3])
-plt.axis([2, 10, 0, 10])
+x = [5,6,7,8]
+y = [7,3,8,3]
+
+x2 = [5,6,7,8]
+y2 = [6,7,2,6]
+
+plt.plot(x,y,'g',linewidth = 5, label = 'Line One')
+
+plt.plot(x2,y2,'c', linewidth = 10, label = 'Line Two')
 
 plt.title('Epic Chart')
 plt.ylabel('Y axis')
-plt.xlabel('X axis')
-
-plt.show()
+plt.xlabel ('X axis')
+plt.legend()
