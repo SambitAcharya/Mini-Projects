@@ -16,77 +16,79 @@ An application to compare the reddit karma of users based on their latest 25 pos
 
 An application to rename multiple files in a directory with a ton of more features. A script to create 100 random text files is used to generate the sample data to work on. The renaming utility currently has features of removing all numbers, all symbols and specific set of characters given by the user. It can also find a particular word in the file and replace it. 
 
-**4) Find me a restaurant**
+**4) Hindi Data **
+
+**5) Find me a restaurant**
 
 An application to find the name and the phone numbers of all the restaurants in a given locality. This is done by using the data returned by the locu API.
 
-**5) Phrase Frequency Counter**
+**6) Phrase Frequency Counter**
 
 An application to count how many times a particular phrase has been repeated in a given input. The user has to choose how many words a phrase would contain and then the code would display all the possible phrases
 of that many words and their counts. 
 Validation issues of common inputs have been taken care of. 
 
-**6) Decode The SMS**
+**7) Decode The SMS**
 
 An application to decode an SMS message into a message which a normal person without the knowledge of these abbreviations can read and understand. The scraper file is complete and all the popular SMS language and their meaning have been scraped of a popular website. Dictionary created from this file is used to translate the SMS text.
 
-**7) Tweet Without Limits**
+**8) Tweet Without Limits**
 
 An application to post tweets longer than 140 characters. The long text is split into multiple tweets and marked acordingly and posted simultaneously. The tweet can also be made in the form of a picture and posted directly.
 
-**8) Streaming Tweets**
+**9) Streaming Tweets**
 
 An application to stream tweets related to a particular topic. Using twitter's API, a script has been made to stream tweets related to a particular topic. The returned data has been split so as to only store the tweets in a file along with the unix timestamp.
 
-**9) Trend Search**
+**10) Trend Search**
 
 An application to find the top ten trending topics in twitter in various places. The list of places which the code supports is given at the start of the application and then the top topics are shown according to the input. 
 
-**10) Collect The Articles**
+**11) Collect The Articles**
 
 An application to collect the recent articles from one's favourite websites and display them.
 
-**11) Web Crawler**
+**12) Web Crawler**
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**12) Github Mining**
+**13) Github Mining**
 
 Application making use of data returned from Github API using PyGithub. Given the username, the app can generate data about repositories, its commits, no of stars, issues etc. Same can be done for organizations too. The collected data is then stored into a CSV file. 
  
-**13) LinkedIn Mining**
+**14) LinkedIn Mining**
 
 Application made using the python wrapper for linkedin. This app generates all the user's connections and the positions over the years. Planning to combine with other projects.
 
-**14) Message Encryption And Decryption**
+**15) Message Encryption And Decryption**
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
 
-**15) Matplotlib**
+**16) Matplotlib**
 
-**16) Random Password Generator**
+**17) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
 The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
-**17) Dropbox Uploader**
+**18) Dropbox Uploader**
 
 A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
-**18) Web Login**
+**19) Web Login**
 
 An application to login to any website through the command line.
 
-**19) GUI with Tkinter**
+**20) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**20) Image Recognition With Python**
+**21) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**21) What's The Weather**
+**22) What's The Weather**
 
 
 ## PHP
