@@ -1,4 +1,6 @@
 from matplotlib import pyplot as plt
+import numpy as np
+import pylab
 
 plt.plot([5,6,7,8],[7,3,8,3])
 plt.axis([2, 10, 0, 10])
