@@ -46,6 +46,7 @@ An application to find the top ten trending topics in twitter in various places.
 
 **11) Extract Data From PDF**
 
+A script to extract data from a PDF file and convert it to HTML.
 
 **12) Collect The Articles**
 
