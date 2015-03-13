@@ -14,3 +14,8 @@ for chunk in response.iter_content(chunk_size=1024):
         htmlfile.write(chunk)
     htmlfile.flush()
 htmlfile.close()
+
+htmldata = ''
+with open(filename+'.html','r') as htmlfile:
+    htmldata+=htmlfile.read()
+soup = BeautifulSoup(htmldata,'html.parser')
