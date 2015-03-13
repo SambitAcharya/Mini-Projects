@@ -44,51 +44,54 @@ An application to stream tweets related to a particular topic. Using twitter's A
 
 An application to find the top ten trending topics in twitter in various places. The list of places which the code supports is given at the start of the application and then the top topics are shown according to the input. 
 
-**11) Collect The Articles**
+**11) Extract Data From PDF**
+
+
+**12) Collect The Articles**
 
 An application to collect the recent articles from one's favourite websites and display them.
 
-**12) Web Crawler**
+**13) Web Crawler**
 
 An application to crawl a popular forum and collect the title of the topics after visiting the topic page. The user can input the number of pages the application has to crawl.
 
-**13) Github Mining**
+**14) Github Mining**
 
 Application making use of data returned from Github API using PyGithub. Given the username, the app can generate data about repositories, its commits, no of stars, issues etc. Same can be done for organizations too. The collected data is then stored into a CSV file. 
  
-**14) LinkedIn Mining**
+**15) LinkedIn Mining**
 
 Application made using the python wrapper for linkedin. This app generates all the user's connections and the positions over the years. Planning to combine with other projects.
 
-**15) Message Encryption And Decryption**
+**16) Message Encryption And Decryption**
 
 An application which generates a key and encrypts a message given by the user. This is an example of 126 bit AES encryption. The message can be decrpyted by a person having the decryption file and the key which was used. The same key has been used for encryption and decryption. The key and the message will be stored in their respective key files when the programs are run.
 
-**16) Matplotlib**
+**17) Matplotlib**
 
-**17) Random Password Generator**
+**18) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
 The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
-**18) Dropbox Uploader**
+**19) Dropbox Uploader**
 
 A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
-**19) Web Login**
+**20) Web Login**
 
 An application to login to any website through the command line.
 
-**20) GUI with Tkinter**
+**21) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**21) Image Recognition With Python**
+**22) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**22) What's The Weather**
+**23) What's The Weather**
 
 
 ## PHP
