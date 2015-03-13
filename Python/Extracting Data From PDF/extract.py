@@ -19,3 +19,17 @@ htmldata = ''
 with open(filename+'.html','r') as htmlfile:
     htmldata+=htmlfile.read()
 soup = BeautifulSoup(htmldata,'html.parser')
+
+rows = tables[0].find_all('tr')
+start = 0
+stop = 0
+
+for row in rows:
+    if 'STATES' in str(row):
+        break
+    start+=1
+stop = start
+for row in rows[start:]:
+    if 'TOTAL (ALL INDIA)' in str(row):
+        break
+    stop+=1
