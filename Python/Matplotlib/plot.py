@@ -41,4 +41,25 @@ BAR Plots
 # # plt.legend()
 
 '''
+
+'''
+Subplots
+
+
+'''
+
+x = np.linspace(0,5,10)
+y = x**2
+
+plt.figure()
+plt.plot(x,y,'r')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title('title')
+
+plt.subplot(1,2,1)
+plt.plot(x,y,'r--')
+plt.subplot(1,2,2)
+plt.plot(y,x,'g*-')
+
 plt.show()
