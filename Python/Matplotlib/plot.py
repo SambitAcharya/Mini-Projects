@@ -62,5 +62,8 @@ plt.plot(x,y,'r--')
 plt.subplot(1,2,2)
 plt.plot(y,x,'g*-')
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 47d6ae10aab056319426b2fbeb23ab2cd812ec81
 plt.show()
