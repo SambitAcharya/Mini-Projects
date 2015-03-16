@@ -45,9 +45,6 @@ BAR Plots
 '''
 Subplots
 
-
-'''
-
 x = np.linspace(0,5,10)
 y = x**2
 
@@ -63,3 +60,25 @@ plt.subplot(1,2,2)
 plt.plot(y,x,'g*-')
 
 plt.show()
+'''
+
+'''
+Reading from a file
+
+'''
+
+readFile = open('sampledata.txt','r')
+sepFile = readFile.read().split('\n')
+
+readFile.close()
+
+x = []
+y = []
+
+for plotPair in sepFile:
+    XandY = plotFair.split(',')
+    x.append(intXandY[0])
+    y.append(intXandY[1])
+
+print x
+print y
