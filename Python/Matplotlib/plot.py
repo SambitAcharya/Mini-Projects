@@ -107,4 +107,46 @@ ax1.set_title('ylabel')
 
 plt.show()
 
+
+
+readFile2 = open('sampledata2.txt','r')
+sepFile2 = readFile2.read().split('\n')
+
+readFile2.close()
+
+fig = plt.figure()
+rect = fig.patch
+rect.set_facecolor('#314213')
+
+x2 = []
+y2 = []
+
+for plotPair in sepFile2:
+    XandY = plotFair.split(',')
+    x2.append(intXandY[0])
+    y2.append(intXandY[1])
+
+
+plt.plot(x,y)
+
+ax2 = fig.add_subplot(1,1,1, axisbg = 'grey')
+ax2.plot(x,y,'c', linewidth = 3.3)
+
+ax2.tick_params(axis  = 'x', colors = 'c')
+ax2.tick_params(axis  = 'y', colors = 'c')
+
+ax2.spines['bottom'].set_color('w')
+ax2.spines['top'].set_color('w')
+ax2.spines['left'].set_color('w')
+ax2.spines['right'].set_color('w')
+
+ax2.yaxis.label.set_color('c')
+ax2.xaxis.label.set_color('c')
+
+ax2.set_title('matplotlib title')
+ax2.set_title('xlabel')
+ax2.set_title('ylabel')
+
+plt.show()
+
 '''
