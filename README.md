@@ -70,6 +70,8 @@ An application which generates a key and encrypts a message given by the user. T
 
 **17) Matplotlib**
 
+The script contains all the examples solved while learning matplotlib.
+
 **18) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
