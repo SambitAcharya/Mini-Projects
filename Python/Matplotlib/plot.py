@@ -65,12 +65,16 @@ plt.show()
 '''
 Reading from a file
 
-'''
+
 
 readFile = open('sampledata.txt','r')
 sepFile = readFile.read().split('\n')
 
 readFile.close()
+
+fig = plt.figure()
+rect = fig.patch
+rect.set_facecolor('#314213')
 
 x = []
 y = []
@@ -80,14 +84,16 @@ for plotPair in sepFile:
     x.append(intXandY[0])
     y.append(intXandY[1])
 
-print x
-print y
-
 
 plt.plot(x,y)
 
-plt.title('Matplotlib example title')
-plt.xlabel('Matplotlib x label')
-plt.ylabel('Matplotlib y label')
+ax1 = fig.add_subplot(1,1,1, axisbg = 'grey')
+ax1.plot(x,y,'c', linewidth = 3.3)
+
+ax1.set_title('matplotlib title')
+ax1.set_title('xlabel')
+ax1.set_title('ylabel')
 
 plt.show()
+
+'''
