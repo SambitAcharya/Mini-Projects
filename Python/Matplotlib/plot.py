@@ -129,7 +129,7 @@ for plotPair in sepFile2:
 
 plt.plot(x,y)
 
-ax2 = fig.add_subplot(1,1,1, axisbg = 'grey')
+ax2 = fig.add_subplot(2,1,2, axisbg = 'grey')
 ax2.plot(x,y,'c', linewidth = 3.3)
 
 ax2.tick_params(axis  = 'x', colors = 'c')
