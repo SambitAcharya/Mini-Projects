@@ -82,3 +82,12 @@ for plotPair in sepFile:
 
 print x
 print y
+
+
+plt.plot(x,y)
+
+plt.title('Matplotlib example title')
+plt.xlabel('Matplotlib x label')
+plt.ylabel('Matplotlib y label')
+
+plt.show()
