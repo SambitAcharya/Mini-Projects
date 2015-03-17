@@ -16,3 +16,10 @@ def get_file_path(filename):
     return file_path
 
 get_file_path('choices.csv')
+
+def read_csv(filepath):
+    with open(filepath, 'rU') as csvfile:
+        reader = csv.reader(csvfile)
+        print reader
+
+read_csv(path)
