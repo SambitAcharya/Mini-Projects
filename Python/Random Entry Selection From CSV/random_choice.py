@@ -10,18 +10,40 @@ def get_file_path(filename):
     return file_path
 
 def read_csv(filepath):
+
+    emails = {}
+    i=0
     with open(filepath, 'rU') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             if not 'Email Address' in row:
                 email,domain = row[1].split('@')
-                print email,domain
+                # print email,domain
+                fake_email = email[:4] + get_random_string()
+                print fake_email
+                i+=1
+                emails[i] = fake_email
+    print emails
+    return emails
 
-currentdirpath = os.getcwd()
-filename = 'choices.csv'
+def get_random_string():
 
-#filepath to open
-file_path = os.path.join(os.getcwd(), filename)
+    rnstring = ''
+    for i in range(4):
+        rnstring+=random.choice(string.ascii_letters)
+    return rnstring
 
-path = get_file_path('choices.csv')
-read_csv(path)
+def get_winner():
+    path = get_file_path('choices.csv')
+    emails = read_csv(path)
+    print len(emails)
+
+def main():
+    currentdirpath = os.getcwd()
+    filename = 'choices.csv'
+
+    #filepath to open
+    file_path = os.path.join(os.getcwd(), filename)
+    get_winner()
+
+main()
