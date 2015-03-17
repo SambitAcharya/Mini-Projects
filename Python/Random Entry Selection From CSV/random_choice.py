@@ -20,10 +20,10 @@ def read_csv(filepath):
                 email,domain = row[1].split('@')
                 # print email,domain
                 fake_email = email[:4] + get_random_string()
-                print fake_email
-                i+=1
+                # print fake_email
                 emails[i] = fake_email
-    print emails
+                i+=1
+    # print emails
     return emails
 
 def get_random_string():
@@ -36,7 +36,11 @@ def get_random_string():
 def get_winner():
     path = get_file_path('choices.csv')
     emails = read_csv(path)
-    print len(emails)
+    # print len(emails)
+
+    ran_num = random.randint(0, len(emails)-1)
+    winner = emails[ran_num]
+    print "And the winner is %s" %winner
 
 def main():
     currentdirpath = os.getcwd()
