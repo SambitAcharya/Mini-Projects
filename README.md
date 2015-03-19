@@ -7,7 +7,7 @@ A collection of various mini projects
 **1) Search Engine**
 
 A search engine which i am building as a part of Udacity CS101 class. The web crawler has been completed and all the code till unit 4 is present in the file.  
-
+ 
 **2) Compare Reddit Karma**
 
 An application to compare the reddit karma of users based on their latest 25 posts. The number of users have been limited to two to avoid too many requests to the reddit server. This script prints out the number of likes and the number of comments on the posts of the reddit users which the user inputs. It also handles cases of invalid users.
@@ -16,7 +16,7 @@ An application to compare the reddit karma of users based on their latest 25 pos
 
 An application to rename multiple files in a directory with a ton of more features. A script to create 100 random text files is used to generate the sample data to work on. The renaming utility currently has features of removing all numbers, all symbols and specific set of characters given by the user. It can also find a particular word in the file and replace it. 
 
-**4) Hindi Data **
+**4) Hindi Data**
  
 **5) Find me a restaurant**
 
