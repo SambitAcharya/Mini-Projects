@@ -1,6 +1,6 @@
 Mini-Projects
 =============
-A collection of various mini projects
+A collection of various mini projects 
 
 ##Python
 
