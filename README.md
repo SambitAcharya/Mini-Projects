@@ -2,7 +2,7 @@ Mini-Projects
 =============
 A collection of various mini projects 
 
-##Python
+##Python 
 
 **1) Search Engine** 
 
