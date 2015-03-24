@@ -88,7 +88,8 @@ A command line application to upload multiple files to dropbox simultaneously. T
 
 **21) Anagrams In File**
 
-A python script to get map all the anagrams of a particular word which are present in the file with the word. This function returns a dictionary with the above mapping.
+A python script to get map all the anagrams of a particular word which are present in the file with the word. This function returns a dictionary with the above mapping. So it can be used in other functions as well.
+
 **22) Web Login**
 
 An application to login to any website through the command line.
