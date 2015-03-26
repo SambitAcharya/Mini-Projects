@@ -76,6 +76,10 @@ An application which generates a key and encrypts a message given by the user. T
 
 The script contains all the examples solved while learning matplotlib.
 
+**19) Try Pandas**
+
+Script containing examples solved while learning pandas.
+
 **19) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
