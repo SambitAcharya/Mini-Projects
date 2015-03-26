@@ -70,7 +70,7 @@ An application which generates a key and encrypts a message given by the user. T
 
 **17) Random Entry Selection From CSV**
 
-
+A python script to read data from a CSV(Comma Separated Value) file and to read its contents. Using the contents of the file we can randomly select an email. This can be used to select a winner, say for a lucky draw.
 
 **18) Matplotlib**
 
