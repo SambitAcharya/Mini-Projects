@@ -26,7 +26,7 @@ To install tesseract the following had to be done
 ``` shell
 brew install tesseract
 ```
-**1)Brew not working**
+**1) Brew not working**
 
 I faced an issue here which took a lot of my time. The command brew was not working as it had been partially installed. After going through Stackoverflow for a bit, i realised the problem. I reinstalled brew and got it to work after a few failed attempts. Then i installed the tesseract engine.
 
@@ -53,8 +53,12 @@ Since the input was to be given by the user, it had to be validated. The code wo
 
 **1) Problem with requests**
 
-I had the following (problem)[http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package] with the requests library because of which i had too use urllib for downloading images.
+I had the following [problem](http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package) with the requests library because of which i had too use urllib for downloading images.
 
 **2) No Python API for OCR**
 
-Some services such as (Free OCR)[http://www.free-ocr.com/] gave good results for Image to text, but had no API available for use. Some other online OCR offered no API for Python.
+Some services such as [Free OCR](http://www.free-ocr.com/) gave good results for Image to text, but had no API available for use. Some other online OCR offered no API for Python.
+
+# Conclusion
+
+Due to bad OCR libraries, the application is unable to detect the no of problems solved by a user properly.
