@@ -96,19 +96,24 @@ A python script to get map all the anagrams of a particular word which are prese
 
 Sample screenshot present in the folder to understand what the script does.
 
-**22) Web Login**
+**22) Scrape Euler**
+
+This is a script written to get the number of problems solved by a user on ProjectEuler (https://projecteuler.net/)
+The script takes the username as a parameter and return the no. of problems solved by a user.
+
+**23) Web Login**
 
 An application to login to any website through the command line.
 
-**23) GUI with Tkinter**
+**24) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**24) Image Recognition With Python**
+**25) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**25) What's The Weather**
+**26) What's The Weather**
 
 
 ## PHP
