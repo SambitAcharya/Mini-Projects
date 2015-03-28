@@ -44,6 +44,17 @@ I cropped the image to the specific required region for better performance, but 
 
 I suspected that the problem was with the **quality** of the SPOJ image. So to enhance the quality, i used some functions provided by PIL. But it **did not** result in any increase in performance.
 
+**3) No Redirection for invalid user**
+
+Since the input was to be given by the user, it had to be validated. The code works fine for a valid input, but due to no return of 404 error code by project euler, the code throws error messages for invalid input.
 
 
+## Other Minor Issues
 
+**1) Problem with requests**
+
+I had the following (problem)[http://stackoverflow.com/questions/29099404/ssl-insecureplatform-error-when-using-requests-package] with the requests library because of which i had too use urllib for downloading images.
+
+**2) No Python API for OCR**
+
+Some services such as (Free OCR)[http://www.free-ocr.com/] gave good results for Image to text, but had no API available for use. Some other online OCR offered no API for Python.
