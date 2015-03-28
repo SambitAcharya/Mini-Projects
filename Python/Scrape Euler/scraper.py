@@ -5,18 +5,25 @@ import re
 import urllib
 import os
 
-parser = argparse.ArgumentParser()
-parser.add_argument('name', help='Username of the user',type = str)
-args = parser.parse_args()
-username =  args.name
-url = 'https://projecteuler.net/profile/'+username+'.png'
-filename = url.split('/')[-1]
-image = urllib.urlretrieve(url, filename)
-# image = requests.get(url)
-img = Image.open(filename)
-c=img.crop((5,40,75,60))
-a = pytesseract.image_to_string(c)
-a = re.sub("[^0-9]", "", a)
-print a
+def getEulerScore(username):
+    url = 'https://projecteuler.net/profile/'+username+'.png'
+    filename = url.split('/')[-1]
+    image = urllib.urlretrieve(url, filename)
+    img = Image.open(filename)
+    c=img.crop((5,40,75,60))
+    score = pytesseract.image_to_string(c)
+    score = re.sub("[^0-9]", "", score)
+    os.remove(filename)
+    return score
 
-os.remove(filename)
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('name', help='Username of the Eulerian',type = str)
+    args = parser.parse_args()
+    username =  args.name
+    score = getEulerScore(username)
+    print score
+
+if __name__ == '__main__':
+    main()
