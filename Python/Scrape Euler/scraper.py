@@ -16,3 +16,4 @@ a = pytesseract.image_to_string(c)
 a = re.sub("[^0-9]", "", a)
 
 print a
+ 
