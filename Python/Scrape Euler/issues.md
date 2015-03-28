@@ -13,8 +13,7 @@ Below is how I approached the problem
 
 **1)** Check the EXIF data returned by the image to get any relevant info.
 
-On doing a quick google search to solve the problem, i came across an article which was about extracting EXIF data from
-an image. I wrote the code to extract the data, but **nothing useful** came out of it.
+On doing a quick google search to solve the problem, i came across an article which was about extracting EXIF data from an image. I wrote the code to extract the data, but **nothing useful** came out of it.
 
 
 
