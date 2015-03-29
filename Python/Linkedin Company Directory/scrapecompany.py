@@ -9,7 +9,7 @@ def getSoupObject(url):
 
     return soup
 
-def getIndustryDataByPlace(urls,names):
+def getCompaniesByPlace(urls):
 
     for index,url in enumerate(urls):
         soup = getSoupObject(url)
@@ -25,9 +25,26 @@ def getIndustryDataByPlace(urls,names):
             url  = link.get('href')
             print url
             urls.append(url)
-
-        print 'This is for a new url.'
         print '\n'*10
+
+def getIndustryDataByPlace(urls,names):
+
+    for index,url in enumerate(urls):
+        soup = getSoupObject(url)
+
+        urls  = []
+        names = []
+
+        for item in soup.findAll('li',{"class":"content"}):
+            name = item.string
+            # print name
+            names.append(name)
+            link = item.find('a')
+            url  = link.get('href')
+            # print url
+            urls.append(url)
+
+        getCompaniesByPlace(urls)
 
 
 def getDataByIndustry():
