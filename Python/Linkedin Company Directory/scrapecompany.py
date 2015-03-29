@@ -12,16 +12,30 @@ def getSoupObject(url):
 def getIndustryDataByPlace(urls,names):
 
     for index,url in enumerate(urls):
-        print names[index]
-        print url
-        print
+        soup = getSoupObject(url)
+
+        urls  = []
+        names = []
+
+        for item in soup.findAll('li',{"class":"content"}):
+            name = item.string
+            print name
+            names.append(name)
+            link = item.find('a')
+            url  = link.get('href')
+            print url
+            urls.append(url)
+
+        print 'This is for a new url.'
+        print '\n'*10
+
 
 def getDataByIndustry():
 
-    url = 'https://www.linkedin.com/directory/companies/'
+    url  = 'https://www.linkedin.com/directory/companies/'
     soup = getSoupObject(url)
 
-    urls = []
+    urls  = []
     names = []
 
     for item in soup.findAll('li',{"class":"content"}):
