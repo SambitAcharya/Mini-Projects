@@ -14,7 +14,7 @@ The crawler was made using [BeautifulSoup4](http://www.crummy.com/software/Beaut
 
 ##Issues
 
-**1)**The issue was scraping a particular company's page. The html code wasn't returned by soup. Here is the code which i executed.
+**1)** The issue was scraping a particular company's page. The html code wasn't returned by soup. Here is the code which was executed.
 
 ```python
 
@@ -27,3 +27,41 @@ soup = BeautifulSoup(html_text)
 print soup
 
 ```
+
+And this was the output
+
+```html
+
+<html><head>
+<script type="text/javascript">
+window.onload = function() {
+  var newLocation = "";
+  if (window.location.protocol == "http:") {
+    var cookies = document.cookie.split("; ");
+    for (var i = 0; i < cookies.length; ++i) {
+      if ((cookies[i].indexOf("sl=") == 0) && (cookies[i].length > 3)) {
+        newLocation = "https:" + window.location.href.substring(window.location.protocol.length);
+      }
+    }
+  }
+
+  if (newLocation.length == 0) {
+    var domain = location.host;
+    var newDomainIndex = 0;
+    if (domain.substr(0, 6) == "touch.") {
+      newDomainIndex = 6;
+    }
+    else if (domain.substr(0, 7) == "tablet.") {
+      newDomainIndex = 7;
+    }
+    if (newDomainIndex) {
+      domain = domain.substr(newDomainIndex);
+    }
+    newLocation = "https://" + domain +  "/uas/login?trk=sentinel_org_block&session_redirect=" + encodeURIComponent(window.location)
+  }
+  window.location.href = newLocation;
+}
+</script>
+</head></html>
+```
+This is not the same as the page source. As no html was returned, all the soup operations failed and scraping the logo of the company couldn't be done.
