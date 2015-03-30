@@ -65,3 +65,7 @@ window.onload = function() {
 </head></html>
 ```
 This is not the same as the page source. As no html was returned, all the soup operations failed and scraping the logo of the company couldn't be done.
+
+**2)** Slow and flaky internet connection
+
+Since the data to be scraped is large, it took a lot of attempts to get all the data.
