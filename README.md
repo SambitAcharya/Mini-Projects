@@ -98,7 +98,7 @@ Sample screenshot present in the folder to understand what the script does.
 
 **22) Scrape Euler**
 
-This is a script written to get the number of problems solved by a user on (Project Euler)[https://projecteuler.net/]
+This is a script written to get the number of problems solved by a user on [Project Euler](https://projecteuler.net/)
 The script takes the username as a parameter and return the no. of problems solved by a user.
 
 **23) Web Login**
