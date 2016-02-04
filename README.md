@@ -72,31 +72,35 @@ An application which generates a key and encrypts a message given by the user. T
 
 A python script to read data from a CSV(Comma Separated Value) file and to read its contents. Using the contents of the file we can randomly select an email. This can be used to select a winner, say for a lucky draw.
 
-**18) Matplotlib**
+**18) Tweet Using Python**
+
+An application to post a tweet using Python and its Twitter wrapper.
+
+**19) Matplotlib**
 
 The script contains all the examples solved while learning matplotlib.
 
-**19) Try Pandas**
+**20) Try Pandas**
 
 Script containing examples solved while learning pandas.
 
-**19) Random Password Generator**
+**21) Random Password Generator**
 
 An application to generate strong passwords with a minimum length of three and containing a mixture of numbers, uppercase letters and lowercase letters. 
 The number of passwords generated and length of each password is to be decided by the user.
 The xkcd password generator creates stronger and easier to remember passwords by combining four random everyday words.
 
-**20) Dropbox Uploader**
+**22) Dropbox Uploader**
 
 A command line application to upload multiple files to dropbox simultaneously. The Dropbox API has been used to make this application and the user has to grant access to the app of the dropbox account before the app is used. All the files are stored in a directory named uploaded files.
 
-**21) Anagrams In File**
+**23) Anagrams In File**
 
 A python script to get map all the anagrams of a particular word which are present in the file with the word. This function returns a dictionary with the above mapping. So it can be used in other functions as well.
 
 Sample screenshot present in the folder to understand what the script does.
 
-**22) Scrape Euler**
+**24) Scrape Euler**
 
 This is a script written to get the number of problems solved by a user on [Project Euler](https://projecteuler.net/)
 The script takes the username as a parameter and return the no. of problems solved by a user.
@@ -105,15 +109,15 @@ The script takes the username as a parameter and return the no. of problems solv
 
 An application to login to any website through the command line.
 
-**24) GUI with Tkinter**
+**25) GUI with Tkinter**
 
 Have started making a Tkinter application in Python. Nothing particular in mind as of now. This space will be updated as I progress.
 
-**25) Image Recognition With Python**
+**26) Image Recognition With Python**
 
 An application with basic image recognition capabilities. Currently a threshold function has been added, but the progress is halted because of errors which are listed in the errors.txt file.
 
-**26) What's The Weather**
+**27) What's The Weather**
 
 
 ## PHP
