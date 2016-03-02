@@ -160,3 +160,7 @@ An application which enables two users to chat with each other. It has a chat wi
 **4) Image Upload**
 
 An application to upload images using jQuery
+
+**5) Plot Chart**
+
+A small application to plot a bar graph from JSON data in Javascript.
