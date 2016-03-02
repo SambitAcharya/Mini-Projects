@@ -1,0 +1,31 @@
+[
+  {
+  "company": "Microsoft",
+  "value": 100
+  },
+
+  {
+    "company": "Amazon",
+    "value": 108
+  },
+
+  {
+    "company": "Morgan Stanley",
+    "value": 99
+  },
+
+  {
+    "company": "Flipkart",
+    "value": 80
+  },
+
+  {
+    "company": "Practo",
+    "value": 120
+  },
+
+  {
+    "company": "Apple",
+    "value": 107
+  }
+]
