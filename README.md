@@ -164,3 +164,7 @@ An application to upload images using jQuery
 **5) Plot Chart**
 
 A small application to plot a bar graph from JSON data in Javascript.
+
+**6) Twitter Bot**
+
+A twitter bot written using NodeJS to randomly retweet and favourite tweets based on a particular topic.
